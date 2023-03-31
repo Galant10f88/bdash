@@ -10,7 +10,7 @@ import {
   mdiTelevisionGuide,
   mdiResponsive,
   mdiPalette,
-  mdiReact,
+  //mdiReact,
 } from "@mdi/js";
 
 export default [
@@ -20,24 +20,29 @@ export default [
     label: "Dashboard",
   },
   {
-    to: "/tables",
-    label: "Tables",
+    to: "/error",
+    label: "Order Cart",
     icon: mdiTable,
   },
   {
-    to: "/forms",
-    label: "Forms",
+    to: "/error",
+    label: "Order History",
     icon: mdiSquareEditOutline,
   },
   {
-    to: "/ui",
-    label: "UI",
+    to: "/error",
+    label: "Pharmacies",
     icon: mdiTelevisionGuide,
   },
   {
-    to: "/responsive",
-    label: "Responsive",
+    to: "/error",
+    label: "Hospitals",
     icon: mdiResponsive,
+  },
+  {
+    to: "/error",
+    label: "Patients",
+    icon: mdiAccountCircle,
   },
   {
     to: "/",
@@ -72,15 +77,9 @@ export default [
     ],
   },
   {
-    href: "https://github.com/justboil/admin-one-vue-tailwind",
+    href: "https://github.com/Galant10f88/",
     label: "GitHub",
     icon: mdiGithub,
-    target: "_blank",
-  },
-  {
-    href: "https://github.com/justboil/admin-one-react-tailwind",
-    label: "React version",
-    icon: mdiReact,
     target: "_blank",
   },
 ];

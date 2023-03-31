@@ -104,7 +104,7 @@ const checked = (isChecked, client) => {
         <th v-if="checkable" />
         <th />
         <th>Name</th>
-        <th>Company</th>
+        <th>Hospital</th>
         <th>City</th>
         <th>Progress</th>
         <th>Created</th>
